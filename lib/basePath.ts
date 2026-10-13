@@ -1,1 +1,1 @@
-export const BASE_PATH = "/publicpolicy";
+export const BASE_PATH = "";
