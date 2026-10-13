@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getAllChapters } from "@/lib/data";
 import { PARTS, partDisplayOrder, chapterSlug } from "@/lib/types";
+import { BASE_PATH } from "@/lib/basePath";
 
 export const metadata: Metadata = {
   title: "Rich Country, Poor Citizens — India's Unfinished Growth",
@@ -88,7 +89,7 @@ export default function HomePage() {
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/thumbs/ch11--fig-two-rankings-two-different-countries.webp"
+              src={`${BASE_PATH}/assets/thumbs/ch11--fig-two-rankings-two-different-countries.webp`}
               alt="Two rankings, two different countries"
               className="hero-card-img"
             />
@@ -106,7 +107,7 @@ export default function HomePage() {
             <div key={i} className="reel-card">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={`/assets/thumbs/${thumb}`}
+                src={`${BASE_PATH}/assets/thumbs/${thumb}`}
                 alt=""
                 loading="lazy"
               />
@@ -171,7 +172,7 @@ export default function HomePage() {
       <section className="publisher-section">
         <div className="publisher-card">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/assets/ppf-logo.png" alt="Public Policy Foundation" />
+          <img src={`${BASE_PATH}/assets/ppf-logo.png`} alt="Public Policy Foundation" />
           <div className="publisher-body">
             <div className="publisher-name">Public Policy Foundation</div>
             <p className="publisher-desc">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { BASE_PATH } from "@/lib/basePath";
 
 export const metadata: Metadata = {
   title: "About",
@@ -10,7 +11,7 @@ export default function AboutPage() {
   return (
     <div className="about-page">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/assets/ppf-logo.png" alt="Public Policy Foundation" />
+      <img src={`${BASE_PATH}/assets/ppf-logo.png`} alt="Public Policy Foundation" />
 
       <div className="kick" style={{ marginBottom: 14 }}>About Public Policy Foundation</div>
       <h1>Research for a stronger, more inclusive tomorrow</h1>

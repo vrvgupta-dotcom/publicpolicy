@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Lightbox from "@/components/Lightbox";
 import type { FigSection } from "@/lib/types";
+import { BASE_PATH } from "@/lib/basePath";
 
 interface Props {
   fig: FigSection;
@@ -10,7 +11,7 @@ interface Props {
 
 export default function FigureCard({ fig }: Props) {
   const [lb, setLb] = useState(false);
-  const src = `/assets/thumbs/${fig.th}`;
+  const src = `${BASE_PATH}/assets/thumbs/${fig.th}`;
 
   return (
     <article className="fig-article" id={fig.id}>

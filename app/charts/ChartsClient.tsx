@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { Chapter } from "@/lib/types";
 import { PARTS, partDisplayOrder, chapterSlug } from "@/lib/types";
 import Lightbox from "@/components/Lightbox";
+import { BASE_PATH } from "@/lib/basePath";
 
 interface FigItem {
   thumb: string;
@@ -70,12 +71,12 @@ export default function ChartsClient({ figures }: Props) {
             role="button"
             tabIndex={0}
             aria-label={`Enlarge: ${fig.title}`}
-            onClick={() => setLb({ src: `/assets/thumbs/${fig.thumb}`, title: fig.title })}
-            onKeyDown={(e) => e.key === "Enter" && setLb({ src: `/assets/thumbs/${fig.thumb}`, title: fig.title })}
+            onClick={() => setLb({ src: `${BASE_PATH}/assets/thumbs/${fig.thumb}`, title: fig.title })}
+            onKeyDown={(e) => e.key === "Enter" && setLb({ src: `${BASE_PATH}/assets/thumbs/${fig.thumb}`, title: fig.title })}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`/assets/thumbs/${fig.thumb}`}
+              src={`${BASE_PATH}/assets/thumbs/${fig.thumb}`}
               alt={fig.title}
               loading="lazy"
             />
