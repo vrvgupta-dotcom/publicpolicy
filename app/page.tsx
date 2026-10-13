@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getAllChapters } from "@/lib/data";
-import { PARTS, partDisplayOrder, chapterSlug } from "@/lib/types";
+import { getAllChapters, getChapterDetail } from "@/lib/data";
+import { PARTS, partDisplayOrder, chapterSlug, chapterDataKey } from "@/lib/types";
 import { BASE_PATH } from "@/lib/basePath";
 
 export const metadata: Metadata = {
@@ -15,42 +15,16 @@ export const metadata: Metadata = {
   },
 };
 
-const REEL_THUMBS = [
-  "ch01--rank.webp",
-  "ch02--fig-both-decades-cut-poverty-fast.webp",
-  "ch03--fig-india-cut-child-deaths-by-two.webp",
-  "ch04--fig-from-one-in-fifty-online-to.webp",
-  "ch05--fig-from-sixteenth-to-fourth-among-the.webp",
-  "ch06--fig-india-makes-about-half-of-the.webp",
-  "ch07--fig-highway-building-tripled-in-pace-then.webp",
-  "ch08--fig-solar-went-from-almost-nothing-to.webp",
-  "ch09--fig-from-most-of-the-population-to.webp",
-  "ch10--fig-forty-crore-people-connected.webp",
-  "ch11--fig-two-rankings-two-different-countries.webp",
-  "ch12--fig-stunting-fell-wasting-barely-moved.webp",
-  "ch13--fig-indias-health-share-fell-as-chinas.webp",
-  "ch14--fig-fewer-than-one-in-four-can.webp",
-  "ch15--fig-at-indias-income-most-countries-had.webp",
-  "ch16--fig-only-twenty-countries-have-a-smaller.webp",
-  "ch17--fig-road-deaths-almost-doubled-in-twenty.webp",
-  "ch18--fig-only-five-countries-recorded-dirtier-air.webp",
-  "ch19--fig-of-every-100-litres-of-urban.webp",
-  "ch20--fig-nine-claims-nine-checks.webp",
-  "ch21--fig-income-concentration-fell-for-thirty-years.webp",
-  "ch22--fig-the-big-southern-states-are-pulling.webp",
-  "ch23--fig-two-studies-opposite-answers-who-carries.webp",
-  "ch24--fig-indias-corruption-score-has-hovered-around.webp",
-  "ch25--fig-india-counts-one-in-forty-five.webp",
-  "ch26--fig-weak-schooling-shows-up-later-as.webp",
-  "ch27--fig-indias-share-of-adults-in-work.webp",
-  "ch28--fig-long-days-thin-margins.webp",
-  "ch29--fig-india-has-started-ageing-at-a.webp",
-  "ch30--fig-water-per-person-crossed-the-stress.webp",
-];
 
 export default function HomePage() {
   const chapters = getAllChapters();
   const displayOrder = partDisplayOrder();
+
+  const reelItems = chapters.map((ch) => {
+    const detail = getChapterDetail(chapterDataKey(ch.n));
+    const thumb = detail?.secs?.[0]?.th ?? ch.figs?.[0] ?? "";
+    return { thumb, slug: chapterSlug(ch) };
+  });
 
   return (
     <>
@@ -100,18 +74,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Chart reel */}
-      <div className="reel-wrap" aria-hidden="true">
+      {/* Chart reel — 43 cards, one per chapter */}
+      <div className="reel-wrap">
         <div className="reel-track">
-          {[...REEL_THUMBS, ...REEL_THUMBS].map((thumb, i) => (
-            <div key={i} className="reel-card">
+          {[...reelItems, ...reelItems].map(({ thumb, slug }, i) => (
+            <Link key={i} href={`/chapters/${slug}`} className="reel-card">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={`${BASE_PATH}/assets/thumbs/${thumb}`}
                 alt=""
                 loading="lazy"
               />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

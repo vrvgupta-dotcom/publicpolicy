@@ -406,7 +406,7 @@ a:hover { color: var(--india-ink); }
   background: var(--stage);
   border-radius: 18px;
   padding: 16px;
-  max-width: min(1060px, 100vw - 72px);
+  max-width: min(700px, 100vw - 72px);
   width: 100%;
 }
 .lightbox-card img {
@@ -531,6 +531,7 @@ a:hover { color: var(--india-ink); }
 .hero-stat span { color: var(--india); }
 .hero-card-img {
   width: 100%;
+  max-width: 700px;
   border-radius: 12px;
   border: 1px solid var(--rule);
   margin-bottom: 14px;
@@ -568,11 +569,13 @@ a:hover { color: var(--india-ink); }
   .reel-track { animation: none; }
 }
 .reel-card {
+  display: block;
   width: 300px;
   border-radius: 14px;
   background: #ffffff;
   padding: 8px;
   flex: none;
+  text-decoration: none;
 }
 .reel-card img {
   width: 100%;
@@ -916,6 +919,7 @@ a:hover { color: var(--india-ink); }
   margin-bottom: 20px;
   cursor: zoom-in;
   transition: box-shadow 0.15s;
+  max-width: 700px;
 }
 .fig-chart-card:hover { box-shadow: 0 16px 40px rgba(21, 23, 58, 0.12); }
 .fig-chart-card img {
