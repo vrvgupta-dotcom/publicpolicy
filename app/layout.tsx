@@ -5,13 +5,13 @@ import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
   title: {
-    default: "Rich Country, Poor Citizens",
-    template: "%s — Rich Country, Poor Citizens",
+    default: "Public Policy Foundation",
+    template: "%s — Public Policy Foundation",
   },
   description:
-    "India's Unfinished Growth, 2004–2036. The fifth-largest economy, 143rd per person.",
+    "Public Policy Foundation — research for a stronger, more inclusive tomorrow.",
   openGraph: {
-    siteName: "Rich Country, Poor Citizens",
+    siteName: "Public Policy Foundation",
     type: "website",
   },
 };

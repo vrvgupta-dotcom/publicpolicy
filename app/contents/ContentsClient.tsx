@@ -6,14 +6,16 @@ import type { Chapter } from "@/lib/types";
 import { PARTS, partDisplayOrder, chapterSlug } from "@/lib/types";
 import { SPECIAL_PAGES } from "@/lib/types";
 
-const PART_GOLD_COLOR: Record<number, string> = {
+const NUMC: Record<number, string> = {
+  1: "#0b7a6a",
+  2: "#c22b2b",
+  3: "#b8316a",
+  4: "#1d6fb5",
+  5: "#3a7a22",
   6: "#a87500",
+  7: "#7a52c9",
+  8: "#b8570a",
 };
-
-function partNumColor(partNum: number) {
-  if (PART_GOLD_COLOR[partNum]) return PART_GOLD_COLOR[partNum];
-  return undefined;
-}
 
 interface Props {
   chapters: Chapter[];
@@ -75,7 +77,7 @@ export default function ContentsClient({ chapters }: Props) {
       <div className="chapter-list" role="list">
         {filtered.map((ch) => {
           const part = PARTS[ch.p];
-          const numColor = partNumColor(ch.p);
+          const numColor = NUMC[ch.p];
           return (
             <Link
               key={ch.n}
@@ -90,10 +92,12 @@ export default function ContentsClient({ chapters }: Props) {
                 {ch.n}
               </div>
               <div className="ch-body">
+                {part && (
+                  <div className="ch-part-label">{part.name}</div>
+                )}
                 <div className="ch-title">{ch.t}</div>
                 <div className="ch-hook">{ch.h}</div>
               </div>
-              <div className="ch-part">{part?.name}</div>
             </Link>
           );
         })}

@@ -3,18 +3,37 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { BASE_PATH } from "@/lib/basePath";
 
-const NAV = [
-  { href: "/", label: "Home" },
+const BOOK_NAV = [
+  { href: "/book", label: "Book home" },
   { href: "/contents", label: "Contents" },
   { href: "/charts", label: "Charts" },
   { href: "/search", label: "Search" },
-  { href: "/about", label: "About" },
 ];
+
+const FOUNDATION_NAV = [
+  { href: "/book", label: "Publications" },
+];
+
+function isBookPath(pathname: string): boolean {
+  return (
+    pathname.startsWith("/book") ||
+    pathname.startsWith("/chapters") ||
+    pathname.startsWith("/contents") ||
+    pathname.startsWith("/charts") ||
+    pathname.startsWith("/search") ||
+    pathname.startsWith("/prologue") ||
+    pathname.startsWith("/epilogue") ||
+    pathname.startsWith("/appendix") ||
+    pathname.startsWith("/note")
+  );
+}
 
 export default function SiteHeader() {
   const pathname = usePathname();
   const [dark, setDark] = useState<boolean | null>(null);
+  const inBook = isBookPath(pathname);
 
   useEffect(() => {
     const saved = localStorage.getItem("rcpc.site.dark");
@@ -31,20 +50,43 @@ export default function SiteHeader() {
     localStorage.setItem("rcpc.site.dark", String(dark));
   }, [dark]);
 
+  const nav = inBook ? BOOK_NAV : FOUNDATION_NAV;
+
   return (
     <header className="site-header">
       <div className="inner">
-        <Link href="/" className="site-brand">
-          <div className="brand-mark">R</div>
-          <span className="brand-name">Rich Country, Poor Citizens</span>
-        </Link>
+        {inBook ? (
+          <>
+            <Link href="/" className="site-back-link">
+              ← Public Policy Foundation
+            </Link>
+            <Link href="/book" className="site-brand">
+              <div className="brand-mark">R</div>
+              <span className="brand-name">Rich Country, Poor Citizens</span>
+            </Link>
+          </>
+        ) : (
+          <Link href="/" className="site-brand site-brand-ppf">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${BASE_PATH}/assets/ppf-logo.png`}
+              alt=""
+              className="ppf-logo-img"
+            />
+            <span className="brand-name">Public Policy Foundation</span>
+          </Link>
+        )}
         <div className="spacer" />
         <nav className="site-nav" aria-label="Main navigation">
-          {NAV.map(({ href, label }) => (
+          {nav.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              data-active={pathname === href || (href !== "/" && pathname.startsWith(href)) ? "true" : undefined}
+              data-active={
+                pathname === href || (href !== "/" && pathname.startsWith(href))
+                  ? "true"
+                  : undefined
+              }
             >
               {label}
             </Link>
@@ -75,18 +117,24 @@ export default function SiteHeader() {
         </button>
       </div>
 
-      {/* Mobile tab bar */}
-      <nav className="mobile-nav" aria-label="Mobile navigation">
-        {NAV.map(({ href, label }) => (
-          <Link
-            key={href}
-            href={href}
-            data-active={pathname === href || (href !== "/" && pathname.startsWith(href)) ? "true" : undefined}
-          >
-            <span>{label}</span>
-          </Link>
-        ))}
-      </nav>
+      {/* Mobile tab bar — only inside the book */}
+      {inBook && (
+        <nav className="mobile-nav" aria-label="Mobile navigation">
+          {BOOK_NAV.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              data-active={
+                pathname === href || (href !== "/" && pathname.startsWith(href))
+                  ? "true"
+                  : undefined
+              }
+            >
+              <span>{label}</span>
+            </Link>
+          ))}
+        </nav>
+      )}
     </header>
   );
 }
