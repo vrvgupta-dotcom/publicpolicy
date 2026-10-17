@@ -12,6 +12,7 @@ export default function SiteFooter() {
           <Link href="/book">Rich Country, Poor Citizens</Link>
           <Link href="/contents">Contents</Link>
           <Link href="/charts">Charts</Link>
+          <Link href="/monitor">The 2036 Monitor</Link>
           <Link href="/">Public Policy Foundation</Link>
         </nav>
       </div>

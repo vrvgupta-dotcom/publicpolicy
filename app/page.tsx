@@ -64,6 +64,29 @@ export default function FoundationHomePage() {
             />
           </div>
         </Link>
+        <Link href="/monitor" className="pub-card pub-card-monitor">
+          <div className="pub-card-left">
+            <div className="pub-card-type">Tracker · Twice a year</div>
+            <div className="pub-card-title">
+              The 2036<br />
+              <span>Monitor</span>
+            </div>
+            <div className="pub-card-sub">Issue 0 · Baseline, October 2026</div>
+            <p className="pub-card-desc">
+              Sixteen numbers that show whether growth is reaching citizens: where each stands,
+              the 2031 halfway mark and the 2036 target. Updated every April and October.
+            </p>
+            <div className="pub-card-meta">
+              <span>16 indicators</span>
+              <span>Next update April 2027</span>
+            </div>
+            <span className="pub-card-cta">Read Issue 0 →</span>
+          </div>
+          <div className="pub-card-right mon-cardart" aria-hidden="true">
+            <b>16</b>
+            <span><i className="up">▲ 5 better</i><i>≈ 1 flat</i><i className="dn">▼ 3 worse</i><i>since 2004</i></span>
+          </div>
+        </Link>
         <p className="ppf-more-note">
           More reports and publications will be added here as they are released.
         </p>
