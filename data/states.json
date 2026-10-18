@@ -1,0 +1,2977 @@
+{
+ "states": [
+  {
+   "name": "Andhra Pradesh",
+   "pop": 53567415.140091866,
+   "inc": 237951,
+   "inc11": 69000,
+   "rel": 1.2597198399085192,
+   "rel11": 1.087264819892219,
+   "ind": {
+    "mpi": [
+     11.77,
+     6.06
+    ],
+    "imr": [
+     34.9,
+     30.3
+    ],
+    "stunt": [
+     31.4,
+     31.2
+    ],
+    "anaemia": [
+     60.0,
+     58.8
+    ],
+    "school": [
+     34.3,
+     39.6
+    ],
+    "paidwork": [
+     42.1,
+     42.1
+    ],
+    "childmar": [
+     33.0,
+     29.3
+    ],
+    "sanit": [
+     54.4,
+     77.3
+    ],
+    "cook": [
+     62.0,
+     83.6
+    ],
+    "insure": [
+     74.6,
+     70.2
+    ]
+   },
+   "usd_equiv": 3395,
+   "pop_twin": {
+    "code": "col",
+    "name": "Colombia",
+    "pop": 52886363.0
+   },
+   "inc_twin": {
+    "code": "hnd",
+    "name": "Honduras",
+    "gdp": 3426
+   },
+   "slug": "andhra-pradesh",
+   "type": "State",
+   "rank": {
+    "mpi": 11,
+    "imr": 17,
+    "stunt": 15,
+    "anaemia": 20,
+    "school": 17,
+    "paidwork": 2,
+    "childmar": 25,
+    "sanit": 13,
+    "cook": 5,
+    "insure": 3
+   },
+   "rank4": {
+    "mpi": 9,
+    "imr": 20,
+    "stunt": 14,
+    "anaemia": 26,
+    "school": 16,
+    "paidwork": 2,
+    "childmar": 25,
+    "sanit": 16,
+    "cook": 7,
+    "insure": 1
+   },
+   "score": 59,
+   "score4": 57,
+   "scoreRank": 10,
+   "scoreRank4": 12,
+   "incRank": 12,
+   "incRank11": 15,
+   "popRank": 10
+  },
+  {
+   "name": "Arunachal Pradesh",
+   "pop": 1513108.001943608,
+   "inc": 220209,
+   "inc11": 73540,
+   "rel": 1.1657931516422082,
+   "rel11": 1.1588036935488955,
+   "ind": {
+    "mpi": [
+     24.23,
+     13.76
+    ],
+    "imr": [
+     22.9,
+     12.9
+    ],
+    "stunt": [
+     29.4,
+     28.0
+    ],
+    "anaemia": [
+     43.2,
+     40.3
+    ],
+    "school": [
+     31.0,
+     39.4
+    ],
+    "paidwork": [
+     17.2,
+     23.5
+    ],
+    "childmar": [
+     23.5,
+     18.9
+    ],
+    "sanit": [
+     61.6,
+     82.9
+    ],
+    "cook": [
+     45.0,
+     53.2
+    ],
+    "insure": [
+     58.3,
+     29.3
+    ]
+   },
+   "usd_equiv": 3142,
+   "pop_twin": {
+    "code": "bhr",
+    "name": "Bahrain",
+    "pop": 1588670.0
+   },
+   "inc_twin": {
+    "code": "uzb",
+    "name": "Uzbekistan",
+    "gdp": 3162
+   },
+   "slug": "arunachal-pradesh",
+   "type": "State",
+   "rank": {
+    "mpi": 20,
+    "imr": 4,
+    "stunt": 10,
+    "anaemia": 6,
+    "school": 18,
+    "paidwork": 18,
+    "childmar": 17,
+    "sanit": 8,
+    "cook": 17,
+    "insure": 18
+   },
+   "rank4": {
+    "mpi": 20,
+    "imr": 5,
+    "stunt": 12,
+    "anaemia": 7,
+    "school": 21,
+    "paidwork": 24,
+    "childmar": 19,
+    "sanit": 13,
+    "cook": 16,
+    "insure": 5
+   },
+   "score": 57,
+   "score4": 54,
+   "scoreRank": 13,
+   "scoreRank4": 14,
+   "incRank": 15,
+   "incRank11": 14,
+   "popRank": 27
+  },
+  {
+   "name": "Assam",
+   "pop": 36953349.11970697,
+   "inc": 139783,
+   "inc11": 41142,
+   "rel": 0.7400154585689177,
+   "rel11": 0.648293466956604,
+   "ind": {
+    "mpi": [
+     32.65,
+     19.35
+    ],
+    "imr": [
+     47.6,
+     31.9
+    ],
+    "stunt": [
+     36.4,
+     35.3
+    ],
+    "anaemia": [
+     46.0,
+     65.9
+    ],
+    "school": [
+     26.2,
+     29.6
+    ],
+    "paidwork": [
+     17.0,
+     19.0
+    ],
+    "childmar": [
+     30.8,
+     31.8
+    ],
+    "sanit": [
+     49.0,
+     68.6
+    ],
+    "cook": [
+     25.1,
+     42.1
+    ],
+    "insure": [
+     10.4,
+     60.0
+    ]
+   },
+   "usd_equiv": 1994,
+   "pop_twin": {
+    "code": "pol",
+    "name": "Poland",
+    "pop": 36559233.0
+   },
+   "inc_twin": {
+    "code": "mrt",
+    "name": "Mauritania",
+    "gdp": 2110
+   },
+   "slug": "assam",
+   "type": "State",
+   "rank": {
+    "mpi": 25,
+    "imr": 20,
+    "stunt": 23,
+    "anaemia": 27,
+    "school": 27,
+    "paidwork": 24,
+    "childmar": 26,
+    "sanit": 24,
+    "cook": 22,
+    "insure": 9
+   },
+   "rank4": {
+    "mpi": 26,
+    "imr": 26,
+    "stunt": 22,
+    "anaemia": 10,
+    "school": 26,
+    "paidwork": 25,
+    "childmar": 23,
+    "sanit": 23,
+    "cook": 25,
+    "insure": 26
+   },
+   "score": 25,
+   "score4": 23,
+   "scoreRank": 27,
+   "scoreRank4": 27,
+   "incRank": 24,
+   "incRank11": 26,
+   "popRank": 14
+  },
+  {
+   "name": "Bihar",
+   "pop": 132125290.79428382,
+   "inc": 60180,
+   "inc11": 21750,
+   "rel": 0.3185947525570167,
+   "rel11": 0.34272478018341684,
+   "ind": {
+    "mpi": [
+     51.89,
+     33.76
+    ],
+    "imr": [
+     48.1,
+     46.8
+    ],
+    "stunt": [
+     48.3,
+     42.9
+    ],
+    "anaemia": [
+     60.3,
+     63.5
+    ],
+    "school": [
+     22.8,
+     28.8
+    ],
+    "paidwork": [
+     12.5,
+     12.6
+    ],
+    "childmar": [
+     42.5,
+     40.8
+    ],
+    "sanit": [
+     26.5,
+     49.4
+    ],
+    "cook": [
+     17.8,
+     37.8
+    ],
+    "insure": [
+     12.3,
+     14.6
+    ]
+   },
+   "usd_equiv": 859,
+   "pop_twin": {
+    "code": "eth",
+    "name": "Ethiopia",
+    "pop": 132059767.0
+   },
+   "inc_twin": {
+    "code": "lbr",
+    "name": "Liberia",
+    "gdp": 851
+   },
+   "slug": "bihar",
+   "type": "State",
+   "rank": {
+    "mpi": 30,
+    "imr": 29,
+    "stunt": 29,
+    "anaemia": 23,
+    "school": 29,
+    "paidwork": 30,
+    "childmar": 29,
+    "sanit": 30,
+    "cook": 26,
+    "insure": 28
+   },
+   "rank4": {
+    "mpi": 30,
+    "imr": 27,
+    "stunt": 30,
+    "anaemia": 27,
+    "school": 30,
+    "paidwork": 29,
+    "childmar": 30,
+    "sanit": 29,
+    "cook": 30,
+    "insure": 24
+   },
+   "score": 6,
+   "score4": 5,
+   "scoreRank": 30,
+   "scoreRank4": 30,
+   "incRank": 30,
+   "incRank11": 30,
+   "popRank": 2
+  },
+  {
+   "name": "Chhattisgarh",
+   "pop": 30555257.114462603,
+   "inc": 148922,
+   "inc11": 55177,
+   "rel": 0.7883976028630116,
+   "rel11": 0.8694494343071444,
+   "ind": {
+    "mpi": [
+     29.9,
+     16.37
+    ],
+    "imr": [
+     54.0,
+     44.3
+    ],
+    "stunt": [
+     37.6,
+     34.6
+    ],
+    "anaemia": [
+     47.0,
+     60.8
+    ],
+    "school": [
+     26.5,
+     36.9
+    ],
+    "paidwork": [
+     36.8,
+     39.1
+    ],
+    "childmar": [
+     21.3,
+     12.1
+    ],
+    "sanit": [
+     34.8,
+     76.8
+    ],
+    "cook": [
+     22.8,
+     33.0
+    ],
+    "insure": [
+     68.5,
+     71.4
+    ]
+   },
+   "usd_equiv": 2125,
+   "pop_twin": {
+    "code": "npl",
+    "name": "Nepal",
+    "pop": 29651054.0
+   },
+   "inc_twin": {
+    "code": "lao",
+    "name": "Lao",
+    "gdp": 2124
+   },
+   "slug": "chhattisgarh",
+   "type": "State",
+   "rank": {
+    "mpi": 24,
+    "imr": 28,
+    "stunt": 21,
+    "anaemia": 22,
+    "school": 20,
+    "paidwork": 6,
+    "childmar": 11,
+    "sanit": 14,
+    "cook": 29,
+    "insure": 2
+   },
+   "rank4": {
+    "mpi": 24,
+    "imr": 29,
+    "stunt": 23,
+    "anaemia": 12,
+    "school": 24,
+    "paidwork": 4,
+    "childmar": 16,
+    "sanit": 26,
+    "cook": 26,
+    "insure": 2
+   },
+   "score": 42,
+   "score4": 39,
+   "scoreRank": 19,
+   "scoreRank4": 22,
+   "incRank": 22,
+   "incRank11": 19,
+   "popRank": 17
+  },
+  {
+   "name": "Goa",
+   "pop": 1461482.405585431,
+   "inc": 585953,
+   "inc11": 259444,
+   "rel": 3.102053025009,
+   "rel11": 4.088178752639375,
+   "ind": {
+    "mpi": [
+     3.76,
+     0.84
+    ],
+    "imr": [
+     12.9,
+     5.6
+    ],
+    "stunt": [
+     20.1,
+     25.8
+    ],
+    "anaemia": [
+     31.3,
+     39.0
+    ],
+    "school": [
+     58.2,
+     71.5
+    ],
+    "paidwork": [
+     23.6,
+     31.9
+    ],
+    "childmar": [
+     9.8,
+     5.8
+    ],
+    "sanit": [
+     78.7,
+     87.9
+    ],
+    "cook": [
+     84.1,
+     96.5
+    ],
+    "insure": [
+     15.9,
+     66.0
+    ]
+   },
+   "usd_equiv": 8359,
+   "pop_twin": {
+    "code": "tls",
+    "name": "Timor-Leste",
+    "pop": 1400638.0
+   },
+   "inc_twin": {
+    "code": "blr",
+    "name": "Belarus",
+    "gdp": 8318
+   },
+   "slug": "goa",
+   "type": "State",
+   "rank": {
+    "mpi": 2,
+    "imr": 2,
+    "stunt": 6,
+    "anaemia": 5,
+    "school": 2,
+    "paidwork": 10,
+    "childmar": 4,
+    "sanit": 3,
+    "cook": 2,
+    "insure": 5
+   },
+   "rank4": {
+    "mpi": 2,
+    "imr": 2,
+    "stunt": 2,
+    "anaemia": 4,
+    "school": 3,
+    "paidwork": 14,
+    "childmar": 5,
+    "sanit": 6,
+    "cook": 2,
+    "insure": 20
+   },
+   "score": 89,
+   "score4": 83,
+   "scoreRank": 1,
+   "scoreRank4": 2,
+   "incRank": 2,
+   "incRank11": 1,
+   "popRank": 28
+  },
+  {
+   "name": "Gujarat",
+   "pop": 72526249.31983528,
+   "inc": 297722,
+   "inc11": 87481,
+   "rel": 1.5761493340109691,
+   "rel11": 1.3784784595505972,
+   "ind": {
+    "mpi": [
+     18.47,
+     11.66
+    ],
+    "imr": [
+     34.2,
+     31.2
+    ],
+    "stunt": [
+     38.5,
+     39.0
+    ],
+    "anaemia": [
+     54.9,
+     65.0
+    ],
+    "school": [
+     33.0,
+     33.8
+    ],
+    "paidwork": [
+     30.2,
+     30.8
+    ],
+    "childmar": [
+     24.9,
+     21.8
+    ],
+    "sanit": [
+     63.6,
+     74.0
+    ],
+    "cook": [
+     52.6,
+     66.9
+    ],
+    "insure": [
+     23.1,
+     39.0
+    ]
+   },
+   "usd_equiv": 4247,
+   "pop_twin": {
+    "code": "tha",
+    "name": "Thailand",
+    "pop": 71668011.0
+   },
+   "inc_twin": {
+    "code": "ven",
+    "name": "Venezuela",
+    "gdp": 4218
+   },
+   "slug": "gujarat",
+   "type": "State",
+   "rank": {
+    "mpi": 17,
+    "imr": 19,
+    "stunt": 26,
+    "anaemia": 25,
+    "school": 22,
+    "paidwork": 11,
+    "childmar": 20,
+    "sanit": 18,
+    "cook": 14,
+    "insure": 14
+   },
+   "rank4": {
+    "mpi": 18,
+    "imr": 18,
+    "stunt": 24,
+    "anaemia": 22,
+    "school": 19,
+    "paidwork": 7,
+    "childmar": 20,
+    "sanit": 12,
+    "cook": 13,
+    "insure": 15
+   },
+   "score": 39,
+   "score4": 46,
+   "scoreRank": 21,
+   "scoreRank4": 20,
+   "incRank": 8,
+   "incRank11": 12,
+   "popRank": 8
+  },
+  {
+   "name": "Haryana",
+   "pop": 30420994.29176204,
+   "inc": 319363,
+   "inc11": 106085,
+   "rel": 1.6907174470067552,
+   "rel11": 1.671630266931392,
+   "ind": {
+    "mpi": [
+     11.88,
+     7.07
+    ],
+    "imr": [
+     32.8,
+     33.3
+    ],
+    "stunt": [
+     34.0,
+     27.5
+    ],
+    "anaemia": [
+     62.7,
+     60.4
+    ],
+    "school": [
+     45.8,
+     49.5
+    ],
+    "paidwork": [
+     17.6,
+     18.8
+    ],
+    "childmar": [
+     19.4,
+     12.5
+    ],
+    "sanit": [
+     80.6,
+     85.0
+    ],
+    "cook": [
+     52.2,
+     59.5
+    ],
+    "insure": [
+     12.2,
+     25.7
+    ]
+   },
+   "usd_equiv": 4556,
+   "pop_twin": {
+    "code": "npl",
+    "name": "Nepal",
+    "pop": 29651054.0
+   },
+   "inc_twin": {
+    "code": "lka",
+    "name": "Sri Lanka",
+    "gdp": 4516
+   },
+   "slug": "haryana",
+   "type": "State",
+   "rank": {
+    "mpi": 12,
+    "imr": 22,
+    "stunt": 9,
+    "anaemia": 21,
+    "school": 12,
+    "paidwork": 25,
+    "childmar": 12,
+    "sanit": 7,
+    "cook": 15,
+    "insure": 21
+   },
+   "rank4": {
+    "mpi": 10,
+    "imr": 17,
+    "stunt": 18,
+    "anaemia": 29,
+    "school": 8,
+    "paidwork": 23,
+    "childmar": 14,
+    "sanit": 5,
+    "cook": 14,
+    "insure": 25
+   },
+   "score": 50,
+   "score4": 47,
+   "scoreRank": 18,
+   "scoreRank4": 19,
+   "incRank": 6,
+   "incRank11": 4,
+   "popRank": 18
+  },
+  {
+   "name": "Himachal Pradesh",
+   "pop": 7478937.90835754,
+   "inc": 234782,
+   "inc11": 87721,
+   "rel": 1.2429430574084661,
+   "rel11": 1.382260250228483,
+   "ind": {
+    "mpi": [
+     7.59,
+     4.93
+    ],
+    "imr": [
+     34.3,
+     25.6
+    ],
+    "stunt": [
+     26.3,
+     30.8
+    ],
+    "anaemia": [
+     53.5,
+     53.0
+    ],
+    "school": [
+     59.4,
+     65.9
+    ],
+    "paidwork": [
+     17.0,
+     20.2
+    ],
+    "childmar": [
+     8.6,
+     5.4
+    ],
+    "sanit": [
+     72.3,
+     81.8
+    ],
+    "cook": [
+     36.7,
+     51.7
+    ],
+    "insure": [
+     25.8,
+     34.5
+    ]
+   },
+   "usd_equiv": 3349,
+   "pop_twin": {
+    "code": "tkm",
+    "name": "Turkmenistan",
+    "pop": 7494498.0
+   },
+   "inc_twin": {
+    "code": "egy",
+    "name": "Egypt",
+    "gdp": 3338
+   },
+   "slug": "himachal-pradesh",
+   "type": "State",
+   "rank": {
+    "mpi": 8,
+    "imr": 14,
+    "stunt": 12,
+    "anaemia": 12,
+    "school": 3,
+    "paidwork": 22,
+    "childmar": 2,
+    "sanit": 10,
+    "cook": 18,
+    "insure": 16
+   },
+   "rank4": {
+    "mpi": 7,
+    "imr": 19,
+    "stunt": 5,
+    "anaemia": 18,
+    "school": 2,
+    "paidwork": 26,
+    "childmar": 3,
+    "sanit": 9,
+    "cook": 18,
+    "insure": 14
+   },
+   "score": 63,
+   "score4": 62,
+   "scoreRank": 7,
+   "scoreRank4": 10,
+   "incRank": 14,
+   "incRank11": 11,
+   "popRank": 22
+  },
+  {
+   "name": "Jharkhand",
+   "pop": 40229781.33252275,
+   "inc": 105274,
+   "inc11": 41254,
+   "rel": 0.5573237617262774,
+   "rel11": 0.650058302606284,
+   "ind": {
+    "mpi": [
+     42.1,
+     28.81
+    ],
+    "imr": [
+     43.8,
+     37.9
+    ],
+    "stunt": [
+     45.3,
+     39.6
+    ],
+    "anaemia": [
+     65.2,
+     65.3
+    ],
+    "school": [
+     28.7,
+     33.2
+    ],
+    "paidwork": [
+     24.8,
+     18.0
+    ],
+    "childmar": [
+     37.9,
+     32.2
+    ],
+    "sanit": [
+     25.0,
+     56.7
+    ],
+    "cook": [
+     18.9,
+     31.9
+    ],
+    "insure": [
+     13.3,
+     50.3
+    ]
+   },
+   "usd_equiv": 1502,
+   "pop_twin": {
+    "code": "can",
+    "name": "Canada",
+    "pop": 41288599.0
+   },
+   "inc_twin": {
+    "code": "ben",
+    "name": "Benin",
+    "gdp": 1485
+   },
+   "slug": "jharkhand",
+   "type": "State",
+   "rank": {
+    "mpi": 29,
+    "imr": 25,
+    "stunt": 27,
+    "anaemia": 26,
+    "school": 24,
+    "paidwork": 27,
+    "childmar": 27,
+    "sanit": 29,
+    "cook": 30,
+    "insure": 11
+   },
+   "rank4": {
+    "mpi": 29,
+    "imr": 25,
+    "stunt": 28,
+    "anaemia": 30,
+    "school": 22,
+    "paidwork": 13,
+    "childmar": 28,
+    "sanit": 30,
+    "cook": 29,
+    "insure": 23
+   },
+   "score": 16,
+   "score4": 15,
+   "scoreRank": 29,
+   "scoreRank4": 29,
+   "incRank": 28,
+   "incRank11": 25,
+   "popRank": 12
+  },
+  {
+   "name": "Karnataka",
+   "pop": 69323304.28794661,
+   "inc": 339813,
+   "inc11": 90263,
+   "rel": 1.7989803697350868,
+   "rel11": 1.4223157164917588,
+   "ind": {
+    "mpi": [
+     12.77,
+     7.58
+    ],
+    "imr": [
+     26.9,
+     25.4
+    ],
+    "stunt": [
+     36.2,
+     35.4
+    ],
+    "anaemia": [
+     44.8,
+     47.8
+    ],
+    "school": [
+     45.5,
+     50.2
+    ],
+    "paidwork": [
+     29.1,
+     37.0
+    ],
+    "childmar": [
+     21.4,
+     21.3
+    ],
+    "sanit": [
+     57.8,
+     74.8
+    ],
+    "cook": [
+     54.7,
+     79.7
+    ],
+    "insure": [
+     28.1,
+     28.1
+    ]
+   },
+   "usd_equiv": 4848,
+   "pop_twin": {
+    "code": "gbr",
+    "name": "UK",
+    "pop": 69226000.0
+   },
+   "inc_twin": {
+    "code": "idn",
+    "name": "Indonesia",
+    "gdp": 4925
+   },
+   "slug": "karnataka",
+   "type": "State",
+   "rank": {
+    "mpi": 13,
+    "imr": 13,
+    "stunt": 24,
+    "anaemia": 9,
+    "school": 10,
+    "paidwork": 7,
+    "childmar": 19,
+    "sanit": 17,
+    "cook": 7,
+    "insure": 20
+   },
+   "rank4": {
+    "mpi": 12,
+    "imr": 8,
+    "stunt": 21,
+    "anaemia": 8,
+    "school": 9,
+    "paidwork": 10,
+    "childmar": 18,
+    "sanit": 15,
+    "cook": 12,
+    "insure": 13
+   },
+   "score": 56,
+   "score4": 60,
+   "scoreRank": 14,
+   "scoreRank4": 11,
+   "incRank": 5,
+   "incRank11": 10,
+   "popRank": 9
+  },
+  {
+   "name": "Kerala",
+   "pop": 36054634.29978803,
+   "inc": 279751,
+   "inc11": 97912,
+   "rel": 1.481010312771319,
+   "rel11": 1.5428445368882167,
+   "ind": {
+    "mpi": [
+     0.7,
+     0.55
+    ],
+    "imr": [
+     5.6,
+     4.4
+    ],
+    "stunt": [
+     19.7,
+     23.4
+    ],
+    "anaemia": [
+     34.3,
+     36.3
+    ],
+    "school": [
+     72.2,
+     77.0
+    ],
+    "paidwork": [
+     20.4,
+     25.8
+    ],
+    "childmar": [
+     7.6,
+     6.3
+    ],
+    "sanit": [
+     98.2,
+     98.7
+    ],
+    "cook": [
+     57.4,
+     72.1
+    ],
+    "insure": [
+     47.7,
+     51.5
+    ]
+   },
+   "usd_equiv": 3991,
+   "pop_twin": {
+    "code": "uzb",
+    "name": "Uzbekistan",
+    "pop": 36361859.0
+   },
+   "inc_twin": {
+    "code": "phl",
+    "name": "Philippines",
+    "gdp": 3985
+   },
+   "slug": "kerala",
+   "type": "State",
+   "rank": {
+    "mpi": 1,
+    "imr": 1,
+    "stunt": 2,
+    "anaemia": 4,
+    "school": 1,
+    "paidwork": 14,
+    "childmar": 5,
+    "sanit": 1,
+    "cook": 11,
+    "insure": 10
+   },
+   "rank4": {
+    "mpi": 1,
+    "imr": 1,
+    "stunt": 1,
+    "anaemia": 5,
+    "school": 1,
+    "paidwork": 19,
+    "childmar": 1,
+    "sanit": 1,
+    "cook": 11,
+    "insure": 7
+   },
+   "score": 86,
+   "score4": 87,
+   "scoreRank": 2,
+   "scoreRank4": 1,
+   "incRank": 9,
+   "incRank11": 7,
+   "popRank": 15
+  },
+  {
+   "name": "Madhya Pradesh",
+   "pop": 88454975.55703478,
+   "inc": 139713,
+   "inc11": 38497,
+   "rel": 0.7396448764373292,
+   "rel11": 0.6066149821940688,
+   "ind": {
+    "mpi": [
+     36.57,
+     20.63
+    ],
+    "imr": [
+     51.2,
+     41.3
+    ],
+    "stunt": [
+     42.0,
+     35.7
+    ],
+    "anaemia": [
+     52.5,
+     54.7
+    ],
+    "school": [
+     23.2,
+     29.3
+    ],
+    "paidwork": [
+     29.9,
+     26.8
+    ],
+    "childmar": [
+     32.4,
+     23.1
+    ],
+    "sanit": [
+     34.8,
+     65.1
+    ],
+    "cook": [
+     29.6,
+     40.1
+    ],
+    "insure": [
+     17.7,
+     38.1
+    ]
+   },
+   "usd_equiv": 1993,
+   "pop_twin": {
+    "code": "tur",
+    "name": "Turkey",
+    "pop": 85518661.0
+   },
+   "inc_twin": {
+    "code": "mrt",
+    "name": "Mauritania",
+    "gdp": 2110
+   },
+   "slug": "madhya-pradesh",
+   "type": "State",
+   "rank": {
+    "mpi": 26,
+    "imr": 27,
+    "stunt": 25,
+    "anaemia": 17,
+    "school": 28,
+    "paidwork": 13,
+    "childmar": 22,
+    "sanit": 26,
+    "cook": 25,
+    "insure": 15
+   },
+   "rank4": {
+    "mpi": 27,
+    "imr": 28,
+    "stunt": 26,
+    "anaemia": 17,
+    "school": 29,
+    "paidwork": 8,
+    "childmar": 24,
+    "sanit": 27,
+    "cook": 23,
+    "insure": 19
+   },
+   "score": 26,
+   "score4": 25,
+   "scoreRank": 26,
+   "scoreRank4": 26,
+   "incRank": 25,
+   "incRank11": 28,
+   "popRank": 5
+  },
+  {
+   "name": "Maharashtra",
+   "pop": 129964834.34464495,
+   "inc": 278681,
+   "inc11": 99597,
+   "rel": 1.4753457001884676,
+   "rel11": 1.5693958589392076,
+   "ind": {
+    "mpi": [
+     14.8,
+     7.81
+    ],
+    "imr": [
+     23.7,
+     23.2
+    ],
+    "stunt": [
+     34.4,
+     35.2
+    ],
+    "anaemia": [
+     48.0,
+     54.2
+    ],
+    "school": [
+     42.0,
+     50.4
+    ],
+    "paidwork": [
+     28.9,
+     34.7
+    ],
+    "childmar": [
+     26.3,
+     21.9
+    ],
+    "sanit": [
+     52.3,
+     72.0
+    ],
+    "cook": [
+     59.9,
+     79.7
+    ],
+    "insure": [
+     15.0,
+     20.0
+    ]
+   },
+   "usd_equiv": 3976,
+   "pop_twin": {
+    "code": "mex",
+    "name": "Mexico",
+    "pop": 130861007.0
+   },
+   "inc_twin": {
+    "code": "phl",
+    "name": "Philippines",
+    "gdp": 3985
+   },
+   "slug": "maharashtra",
+   "type": "State",
+   "rank": {
+    "mpi": 14,
+    "imr": 9,
+    "stunt": 22,
+    "anaemia": 15,
+    "school": 8,
+    "paidwork": 8,
+    "childmar": 21,
+    "sanit": 21,
+    "cook": 8,
+    "insure": 26
+   },
+   "rank4": {
+    "mpi": 14,
+    "imr": 6,
+    "stunt": 20,
+    "anaemia": 13,
+    "school": 12,
+    "paidwork": 11,
+    "childmar": 22,
+    "sanit": 21,
+    "cook": 8,
+    "insure": 22
+   },
+   "score": 51,
+   "score4": 52,
+   "scoreRank": 17,
+   "scoreRank4": 15,
+   "incRank": 10,
+   "incRank11": 6,
+   "popRank": 3
+  },
+  {
+   "name": "Manipur",
+   "pop": 3012992.049641264,
+   "inc": 128925,
+   "inc11": 39762,
+   "rel": 0.6825328759291024,
+   "rel11": 0.6265481705587596,
+   "ind": {
+    "mpi": [
+     16.96,
+     8.1
+    ],
+    "imr": [
+     21.7,
+     25.0
+    ],
+    "stunt": [
+     28.9,
+     23.4
+    ],
+    "anaemia": [
+     26.4,
+     29.4
+    ],
+    "school": [
+     45.9,
+     48.1
+    ],
+    "paidwork": [
+     40.9,
+     42.1
+    ],
+    "childmar": [
+     13.7,
+     16.3
+    ],
+    "sanit": [
+     52.6,
+     64.9
+    ],
+    "cook": [
+     42.1,
+     70.4
+    ],
+    "insure": [
+     3.6,
+     14.2
+    ]
+   },
+   "usd_equiv": 1839,
+   "pop_twin": {
+    "code": "nam",
+    "name": "Namibia",
+    "pop": 3030131.0
+   },
+   "inc_twin": {
+    "code": "cmr",
+    "name": "Cameroon",
+    "gdp": 1830
+   },
+   "slug": "manipur",
+   "type": "State",
+   "rank": {
+    "mpi": 15,
+    "imr": 12,
+    "stunt": 3,
+    "anaemia": 2,
+    "school": 14,
+    "paidwork": 3,
+    "childmar": 15,
+    "sanit": 27,
+    "cook": 12,
+    "insure": 29
+   },
+   "rank4": {
+    "mpi": 16,
+    "imr": 4,
+    "stunt": 11,
+    "anaemia": 2,
+    "school": 7,
+    "paidwork": 3,
+    "childmar": 8,
+    "sanit": 19,
+    "cook": 17,
+    "insure": 30
+   },
+   "score": 58,
+   "score4": 63,
+   "scoreRank": 11,
+   "scoreRank4": 7,
+   "incRank": 27,
+   "incRank11": 27,
+   "popRank": 25
+  },
+  {
+   "name": "Meghalaya",
+   "pop": 3499284.399918217,
+   "inc": 136948,
+   "inc11": 59794,
+   "rel": 0.7250068822395866,
+   "rel11": 0.942201632472976,
+   "ind": {
+    "mpi": [
+     32.54,
+     27.79
+    ],
+    "imr": [
+     29.9,
+     32.3
+    ],
+    "stunt": [
+     43.8,
+     46.5
+    ],
+    "anaemia": [
+     56.2,
+     53.8
+    ],
+    "school": [
+     33.6,
+     35.1
+    ],
+    "paidwork": [
+     35.9,
+     40.0
+    ],
+    "childmar": [
+     16.9,
+     16.9
+    ],
+    "sanit": [
+     61.4,
+     82.9
+    ],
+    "cook": [
+     21.8,
+     33.7
+    ],
+    "insure": [
+     34.6,
+     63.5
+    ]
+   },
+   "usd_equiv": 1954,
+   "pop_twin": {
+    "code": "mng",
+    "name": "Mongolia",
+    "pop": 3524788.0
+   },
+   "inc_twin": {
+    "code": "cmr",
+    "name": "Cameroon",
+    "gdp": 1830
+   },
+   "slug": "meghalaya",
+   "type": "State",
+   "rank": {
+    "mpi": 28,
+    "imr": 21,
+    "stunt": 30,
+    "anaemia": 14,
+    "school": 21,
+    "paidwork": 5,
+    "childmar": 16,
+    "sanit": 9,
+    "cook": 28,
+    "insure": 6
+   },
+   "rank4": {
+    "mpi": 25,
+    "imr": 14,
+    "stunt": 27,
+    "anaemia": 24,
+    "school": 17,
+    "paidwork": 5,
+    "childmar": 13,
+    "sanit": 14,
+    "cook": 27,
+    "insure": 10
+   },
+   "score": 42,
+   "score4": 43,
+   "scoreRank": 20,
+   "scoreRank4": 21,
+   "incRank": 26,
+   "incRank11": 16,
+   "popRank": 24
+  },
+  {
+   "name": "Mizoram",
+   "pop": 1239658.5574774302,
+   "inc": 235823,
+   "inc11": 57654,
+   "rel": 1.2484541431082312,
+   "rel11": 0.9084806655951593,
+   "ind": {
+    "mpi": [
+     9.78,
+     5.3
+    ],
+    "imr": [
+     40.1,
+     21.3
+    ],
+    "stunt": [
+     28.1,
+     28.9
+    ],
+    "anaemia": [
+     24.8,
+     34.8
+    ],
+    "school": [
+     39.9,
+     50.0
+    ],
+    "paidwork": [
+     29.4,
+     29.2
+    ],
+    "childmar": [
+     10.9,
+     8.0
+    ],
+    "sanit": [
+     84.4,
+     95.3
+    ],
+    "cook": [
+     66.1,
+     83.8
+    ],
+    "insure": [
+     45.8,
+     46.4
+    ]
+   },
+   "usd_equiv": 3364,
+   "pop_twin": {
+    "code": "swz",
+    "name": "Eswatini",
+    "pop": 1242822.0
+   },
+   "inc_twin": {
+    "code": "egy",
+    "name": "Egypt",
+    "gdp": 3338
+   },
+   "slug": "mizoram",
+   "type": "State",
+   "rank": {
+    "mpi": 9,
+    "imr": 7,
+    "stunt": 11,
+    "anaemia": 3,
+    "school": 11,
+    "paidwork": 12,
+    "childmar": 6,
+    "sanit": 2,
+    "cook": 4,
+    "insure": 13
+   },
+   "rank4": {
+    "mpi": 8,
+    "imr": 23,
+    "stunt": 9,
+    "anaemia": 1,
+    "school": 14,
+    "paidwork": 9,
+    "childmar": 6,
+    "sanit": 3,
+    "cook": 5,
+    "insure": 9
+   },
+   "score": 77,
+   "score4": 73,
+   "scoreRank": 3,
+   "scoreRank4": 3,
+   "incRank": 13,
+   "incRank11": 17,
+   "popRank": 29
+  },
+  {
+   "name": "Nagaland",
+   "pop": 2197631.1976311975,
+   "inc": 158730,
+   "inc11": 53010,
+   "rel": 0.8403214535290007,
+   "rel11": 0.8353030159780657,
+   "ind": {
+    "mpi": [
+     25.16,
+     15.43
+    ],
+    "imr": [
+     29.5,
+     23.4
+    ],
+    "stunt": [
+     28.6,
+     32.7
+    ],
+    "anaemia": [
+     27.9,
+     28.9
+    ],
+    "school": [
+     33.3,
+     44.4
+    ],
+    "paidwork": [
+     22.7,
+     23.6
+    ],
+    "childmar": [
+     13.4,
+     5.6
+    ],
+    "sanit": [
+     76.7,
+     87.7
+    ],
+    "cook": [
+     32.8,
+     43.0
+    ],
+    "insure": [
+     6.1,
+     20.5
+    ]
+   },
+   "usd_equiv": 2264,
+   "pop_twin": {
+    "code": "gnb",
+    "name": "Guinea-Bissau",
+    "pop": 2201352.0
+   },
+   "inc_twin": {
+    "code": "gha",
+    "name": "Ghana",
+    "gdp": 2391
+   },
+   "slug": "nagaland",
+   "type": "State",
+   "rank": {
+    "mpi": 22,
+    "imr": 10,
+    "stunt": 18,
+    "anaemia": 1,
+    "school": 16,
+    "paidwork": 17,
+    "childmar": 3,
+    "sanit": 4,
+    "cook": 21,
+    "insure": 25
+   },
+   "rank4": {
+    "mpi": 21,
+    "imr": 12,
+    "stunt": 10,
+    "anaemia": 3,
+    "school": 18,
+    "paidwork": 16,
+    "childmar": 7,
+    "sanit": 7,
+    "cook": 19,
+    "insure": 27
+   },
+   "score": 56,
+   "score4": 55,
+   "scoreRank": 15,
+   "scoreRank4": 13,
+   "incRank": 20,
+   "incRank11": 20,
+   "popRank": 26
+  },
+  {
+   "name": "Odisha",
+   "pop": 43648375.21506289,
+   "inc": 165068,
+   "inc11": 48387,
+   "rel": 0.8738750185291065,
+   "rel11": 0.762456273045287,
+   "ind": {
+    "mpi": [
+     29.34,
+     15.68
+    ],
+    "imr": [
+     39.6,
+     36.3
+    ],
+    "stunt": [
+     34.1,
+     31.0
+    ],
+    "anaemia": [
+     51.0,
+     64.3
+    ],
+    "school": [
+     26.7,
+     33.0
+    ],
+    "paidwork": [
+     22.5,
+     25.7
+    ],
+    "childmar": [
+     21.3,
+     20.5
+    ],
+    "sanit": [
+     30.0,
+     60.5
+    ],
+    "cook": [
+     19.2,
+     34.7
+    ],
+    "insure": [
+     47.7,
+     47.9
+    ]
+   },
+   "usd_equiv": 2355,
+   "pop_twin": {
+    "code": "afg",
+    "name": "Afghanistan",
+    "pop": 42647492.0
+   },
+   "inc_twin": {
+    "code": "gha",
+    "name": "Ghana",
+    "gdp": 2391
+   },
+   "slug": "odisha",
+   "type": "State",
+   "rank": {
+    "mpi": 23,
+    "imr": 23,
+    "stunt": 14,
+    "anaemia": 24,
+    "school": 25,
+    "paidwork": 15,
+    "childmar": 18,
+    "sanit": 28,
+    "cook": 27,
+    "insure": 12
+   },
+   "rank4": {
+    "mpi": 23,
+    "imr": 21,
+    "stunt": 19,
+    "anaemia": 15,
+    "school": 23,
+    "paidwork": 17,
+    "childmar": 17,
+    "sanit": 28,
+    "cook": 28,
+    "insure": 8
+   },
+   "score": 31,
+   "score4": 35,
+   "scoreRank": 23,
+   "scoreRank4": 24,
+   "incRank": 19,
+   "incRank11": 23,
+   "popRank": 11
+  },
+  {
+   "name": "Punjab",
+   "pop": 33688644.36935667,
+   "inc": 195031,
+   "inc11": 85577,
+   "rel": 1.0325000529403046,
+   "rel11": 1.348476253506035,
+   "ind": {
+    "mpi": [
+     5.57,
+     4.75
+    ],
+    "imr": [
+     29.2,
+     28.0
+    ],
+    "stunt": [
+     25.7,
+     24.5
+    ],
+    "anaemia": [
+     53.5,
+     58.7
+    ],
+    "school": [
+     55.1,
+     56.0
+    ],
+    "paidwork": [
+     18.5,
+     22.3
+    ],
+    "childmar": [
+     7.6,
+     8.7
+    ],
+    "sanit": [
+     82.7,
+     86.6
+    ],
+    "cook": [
+     65.9,
+     76.7
+    ],
+    "insure": [
+     21.2,
+     25.2
+    ]
+   },
+   "usd_equiv": 2782,
+   "pop_twin": {
+    "code": "per",
+    "name": "Peru",
+    "pop": 34217848.0
+   },
+   "inc_twin": {
+    "code": "civ",
+    "name": "Cote d'Ivoire",
+    "gdp": 2728
+   },
+   "slug": "punjab",
+   "type": "State",
+   "rank": {
+    "mpi": 6,
+    "imr": 16,
+    "stunt": 4,
+    "anaemia": 19,
+    "school": 6,
+    "paidwork": 20,
+    "childmar": 7,
+    "sanit": 6,
+    "cook": 10,
+    "insure": 23
+   },
+   "rank4": {
+    "mpi": 6,
+    "imr": 11,
+    "stunt": 4,
+    "anaemia": 19,
+    "school": 4,
+    "paidwork": 22,
+    "childmar": 2,
+    "sanit": 4,
+    "cook": 6,
+    "insure": 16
+   },
+   "score": 63,
+   "score4": 71,
+   "scoreRank": 8,
+   "scoreRank4": 5,
+   "incRank": 16,
+   "incRank11": 13,
+   "popRank": 16
+  },
+  {
+   "name": "Rajasthan",
+   "pop": 81719742.9296657,
+   "inc": 166647,
+   "inc11": 57192,
+   "rel": 0.8822342926116511,
+   "rel11": 0.9012007185402288,
+   "ind": {
+    "mpi": [
+     28.86,
+     15.31
+    ],
+    "imr": [
+     41.3,
+     30.3
+    ],
+    "stunt": [
+     39.1,
+     31.8
+    ],
+    "anaemia": [
+     46.8,
+     54.4
+    ],
+    "school": [
+     25.1,
+     33.4
+    ],
+    "paidwork": [
+     18.6,
+     17.4
+    ],
+    "childmar": [
+     35.4,
+     25.4
+    ],
+    "sanit": [
+     46.1,
+     71.1
+    ],
+    "cook": [
+     31.8,
+     41.4
+    ],
+    "insure": [
+     18.7,
+     87.8
+    ]
+   },
+   "usd_equiv": 2377,
+   "pop_twin": {
+    "code": "deu",
+    "name": "Germany",
+    "pop": 83516593.0
+   },
+   "inc_twin": {
+    "code": "gha",
+    "name": "Ghana",
+    "gdp": 2391
+   },
+   "slug": "rajasthan",
+   "type": "State",
+   "rank": {
+    "mpi": 21,
+    "imr": 18,
+    "stunt": 16,
+    "anaemia": 16,
+    "school": 23,
+    "paidwork": 28,
+    "childmar": 24,
+    "sanit": 22,
+    "cook": 23,
+    "insure": 1
+   },
+   "rank4": {
+    "mpi": 22,
+    "imr": 24,
+    "stunt": 25,
+    "anaemia": 11,
+    "school": 27,
+    "paidwork": 21,
+    "childmar": 27,
+    "sanit": 24,
+    "cook": 22,
+    "insure": 18
+   },
+   "score": 37,
+   "score4": 27,
+   "scoreRank": 22,
+   "scoreRank4": 25,
+   "incRank": 18,
+   "incRank11": 18,
+   "popRank": 6
+  },
+  {
+   "name": "Sikkim",
+   "pop": 689110.7167588555,
+   "inc": 587743,
+   "inc11": 158667,
+   "rel": 3.111529339516761,
+   "rel11": 2.5001890895338943,
+   "ind": {
+    "mpi": [
+     3.82,
+     2.6
+    ],
+    "imr": [
+     29.5,
+     11.2
+    ],
+    "stunt": [
+     29.6,
+     22.3
+    ],
+    "anaemia": [
+     34.9,
+     42.1
+    ],
+    "school": [
+     40.7,
+     49.0
+    ],
+    "paidwork": [
+     19.9,
+     32.7
+    ],
+    "childmar": [
+     15.0,
+     10.8
+    ],
+    "sanit": [
+     89.7,
+     87.3
+    ],
+    "cook": [
+     59.1,
+     78.4
+    ],
+    "insure": [
+     30.3,
+     25.7
+    ]
+   },
+   "usd_equiv": 8385,
+   "pop_twin": {
+    "code": "lux",
+    "name": "Luxembourg",
+    "pop": 677012.0
+   },
+   "inc_twin": {
+    "code": "per",
+    "name": "Peru",
+    "gdp": 8452
+   },
+   "slug": "sikkim",
+   "type": "State",
+   "rank": {
+    "mpi": 4,
+    "imr": 3,
+    "stunt": 1,
+    "anaemia": 7,
+    "school": 13,
+    "paidwork": 9,
+    "childmar": 10,
+    "sanit": 5,
+    "cook": 9,
+    "insure": 22
+   },
+   "rank4": {
+    "mpi": 3,
+    "imr": 13,
+    "stunt": 13,
+    "anaemia": 6,
+    "school": 13,
+    "paidwork": 20,
+    "childmar": 11,
+    "sanit": 2,
+    "cook": 9,
+    "insure": 12
+   },
+   "score": 75,
+   "score4": 68,
+   "scoreRank": 5,
+   "scoreRank4": 6,
+   "incRank": 1,
+   "incRank11": 3,
+   "popRank": 30
+  },
+  {
+   "name": "Tamil Nadu",
+   "pop": 76531121.12175624,
+   "inc": 315220,
+   "inc11": 93112,
+   "rel": 1.6687842788471718,
+   "rel11": 1.467208723330497,
+   "ind": {
+    "mpi": [
+     4.76,
+     2.2
+    ],
+    "imr": [
+     20.2,
+     18.6
+    ],
+    "stunt": [
+     27.1,
+     25.0
+    ],
+    "anaemia": [
+     55.0,
+     53.4
+    ],
+    "school": [
+     50.9,
+     56.6
+    ],
+    "paidwork": [
+     30.5,
+     40.8
+    ],
+    "childmar": [
+     16.3,
+     12.8
+    ],
+    "sanit": [
+     52.5,
+     72.6
+    ],
+    "cook": [
+     73.0,
+     82.9
+    ],
+    "insure": [
+     64.1,
+     66.5
+    ]
+   },
+   "usd_equiv": 4497,
+   "pop_twin": {
+    "code": "tha",
+    "name": "Thailand",
+    "pop": 71668011.0
+   },
+   "inc_twin": {
+    "code": "lka",
+    "name": "Sri Lanka",
+    "gdp": 4516
+   },
+   "slug": "tamil-nadu",
+   "type": "State",
+   "rank": {
+    "mpi": 3,
+    "imr": 6,
+    "stunt": 5,
+    "anaemia": 13,
+    "school": 5,
+    "paidwork": 4,
+    "childmar": 13,
+    "sanit": 20,
+    "cook": 6,
+    "insure": 4
+   },
+   "rank4": {
+    "mpi": 5,
+    "imr": 3,
+    "stunt": 6,
+    "anaemia": 23,
+    "school": 6,
+    "paidwork": 6,
+    "childmar": 12,
+    "sanit": 20,
+    "cook": 3,
+    "insure": 4
+   },
+   "score": 76,
+   "score4": 73,
+   "scoreRank": 4,
+   "scoreRank4": 4,
+   "incRank": 7,
+   "incRank11": 8,
+   "popRank": 7
+  },
+  {
+   "name": "Telangana",
+   "pop": 38148861.18623668,
+   "inc": 346457,
+   "inc11": 91121,
+   "rel": 1.8341539080532792,
+   "rel11": 1.4358356181652012,
+   "ind": {
+    "mpi": [
+     13.18,
+     5.88
+    ],
+    "imr": [
+     27.7,
+     26.4
+    ],
+    "stunt": [
+     28.0,
+     33.1
+    ],
+    "anaemia": [
+     56.6,
+     57.6
+    ],
+    "school": [
+     43.6,
+     45.5
+    ],
+    "paidwork": [
+     44.7,
+     45.1
+    ],
+    "childmar": [
+     26.2,
+     23.5
+    ],
+    "sanit": [
+     52.3,
+     76.2
+    ],
+    "cook": [
+     67.3,
+     91.8
+    ],
+    "insure": [
+     66.4,
+     60.8
+    ]
+   },
+   "usd_equiv": 4943,
+   "pop_twin": {
+    "code": "mar",
+    "name": "Morocco",
+    "pop": 38081173.0
+   },
+   "inc_twin": {
+    "code": "idn",
+    "name": "Indonesia",
+    "gdp": 4925
+   },
+   "slug": "telangana",
+   "type": "State",
+   "rank": {
+    "mpi": 10,
+    "imr": 15,
+    "stunt": 19,
+    "anaemia": 18,
+    "school": 15,
+    "paidwork": 1,
+    "childmar": 23,
+    "sanit": 15,
+    "cook": 3,
+    "insure": 8
+   },
+   "rank4": {
+    "mpi": 13,
+    "imr": 10,
+    "stunt": 8,
+    "anaemia": 25,
+    "school": 11,
+    "paidwork": 1,
+    "childmar": 21,
+    "sanit": 22,
+    "cook": 4,
+    "insure": 3
+   },
+   "score": 60,
+   "score4": 63,
+   "scoreRank": 9,
+   "scoreRank4": 8,
+   "incRank": 4,
+   "incRank11": 9,
+   "popRank": 13
+  },
+  {
+   "name": "Tripura",
+   "pop": 3987894.4066733355,
+   "inc": 176943,
+   "inc11": 47155,
+   "rel": 0.9367416301378566,
+   "rel11": 0.7430430808988056,
+   "ind": {
+    "mpi": [
+     16.62,
+     13.11
+    ],
+    "imr": [
+     26.7,
+     37.6
+    ],
+    "stunt": [
+     24.3,
+     32.3
+    ],
+    "anaemia": [
+     54.5,
+     67.2
+    ],
+    "school": [
+     23.4,
+     23.2
+    ],
+    "paidwork": [
+     26.3,
+     23.1
+    ],
+    "childmar": [
+     33.1,
+     40.1
+    ],
+    "sanit": [
+     63.7,
+     73.6
+    ],
+    "cook": [
+     31.9,
+     45.3
+    ],
+    "insure": [
+     58.1,
+     33.0
+    ]
+   },
+   "usd_equiv": 2524,
+   "pop_twin": {
+    "code": "hrv",
+    "name": "Croatia",
+    "pop": 3866200.0
+   },
+   "inc_twin": {
+    "code": "zwe",
+    "name": "Zimbabwe",
+    "gdp": 2497
+   },
+   "slug": "tripura",
+   "type": "State",
+   "rank": {
+    "mpi": 19,
+    "imr": 24,
+    "stunt": 17,
+    "anaemia": 29,
+    "school": 30,
+    "paidwork": 19,
+    "childmar": 28,
+    "sanit": 19,
+    "cook": 20,
+    "insure": 17
+   },
+   "rank4": {
+    "mpi": 15,
+    "imr": 7,
+    "stunt": 3,
+    "anaemia": 21,
+    "school": 28,
+    "paidwork": 12,
+    "childmar": 26,
+    "sanit": 11,
+    "cook": 21,
+    "insure": 6
+   },
+   "score": 27,
+   "score4": 52,
+   "scoreRank": 24,
+   "scoreRank4": 16,
+   "incRank": 17,
+   "incRank11": 24,
+   "popRank": 23
+  },
+  {
+   "name": "Uttar Pradesh",
+   "pop": 248821262.6576181,
+   "inc": 93422,
+   "inc11": 32002,
+   "rel": 0.4945789128179065,
+   "rel11": 0.5042702719737796,
+   "ind": {
+    "mpi": [
+     37.68,
+     22.93
+    ],
+    "imr": [
+     63.5,
+     50.4
+    ],
+    "stunt": [
+     46.3,
+     39.7
+    ],
+    "anaemia": [
+     52.4,
+     50.4
+    ],
+    "school": [
+     32.9,
+     39.3
+    ],
+    "paidwork": [
+     16.6,
+     15.5
+    ],
+    "childmar": [
+     21.1,
+     15.8
+    ],
+    "sanit": [
+     36.4,
+     68.8
+    ],
+    "cook": [
+     32.7,
+     49.5
+    ],
+    "insure": [
+     6.1,
+     15.9
+    ]
+   },
+   "usd_equiv": 1333,
+   "pop_twin": {
+    "code": "pak",
+    "name": "Pakistan",
+    "pop": 251269164.0
+   },
+   "inc_twin": {
+    "code": "tjk",
+    "name": "Tajikistan",
+    "gdp": 1341
+   },
+   "slug": "uttar-pradesh",
+   "type": "State",
+   "rank": {
+    "mpi": 27,
+    "imr": 30,
+    "stunt": 28,
+    "anaemia": 11,
+    "school": 19,
+    "paidwork": 29,
+    "childmar": 14,
+    "sanit": 23,
+    "cook": 19,
+    "insure": 27
+   },
+   "rank4": {
+    "mpi": 28,
+    "imr": 30,
+    "stunt": 29,
+    "anaemia": 16,
+    "school": 20,
+    "paidwork": 27,
+    "childmar": 15,
+    "sanit": 25,
+    "cook": 20,
+    "insure": 28
+   },
+   "score": 25,
+   "score4": 21,
+   "scoreRank": 28,
+   "scoreRank4": 28,
+   "incRank": 29,
+   "incRank11": 29,
+   "popRank": 1
+  },
+  {
+   "name": "Uttarakhand",
+   "pop": 11053587.241751904,
+   "inc": 246178,
+   "inc11": 100314,
+   "rel": 1.3032738284310612,
+   "rel11": 1.580693958589392,
+   "ind": {
+    "mpi": [
+     17.67,
+     9.67
+    ],
+    "imr": [
+     39.7,
+     39.1
+    ],
+    "stunt": [
+     33.5,
+     27.0
+    ],
+    "anaemia": [
+     45.2,
+     42.6
+    ],
+    "school": [
+     44.6,
+     50.4
+    ],
+    "paidwork": [
+     15.5,
+     21.6
+    ],
+    "childmar": [
+     13.8,
+     9.8
+    ],
+    "sanit": [
+     66.2,
+     78.8
+    ],
+    "cook": [
+     51.0,
+     59.2
+    ],
+    "insure": [
+     19.5,
+     62.5
+    ]
+   },
+   "usd_equiv": 3512,
+   "pop_twin": {
+    "code": "are",
+    "name": "UAE",
+    "pop": 10986400.0
+   },
+   "inc_twin": {
+    "code": "lbn",
+    "name": "Lebanon",
+    "gdp": 3478
+   },
+   "slug": "uttarakhand",
+   "type": "State",
+   "rank": {
+    "mpi": 16,
+    "imr": 26,
+    "stunt": 8,
+    "anaemia": 8,
+    "school": 9,
+    "paidwork": 21,
+    "childmar": 8,
+    "sanit": 12,
+    "cook": 16,
+    "insure": 7
+   },
+   "rank4": {
+    "mpi": 17,
+    "imr": 22,
+    "stunt": 17,
+    "anaemia": 9,
+    "school": 10,
+    "paidwork": 28,
+    "childmar": 9,
+    "sanit": 10,
+    "cook": 15,
+    "insure": 17
+   },
+   "score": 58,
+   "score4": 50,
+   "scoreRank": 12,
+   "scoreRank4": 18,
+   "incRank": 11,
+   "incRank11": 5,
+   "popRank": 21
+  },
+  {
+   "name": "West Bengal",
+   "pop": 99832458.28177775,
+   "inc": 149515,
+   "inc11": 51543,
+   "rel": 0.7915369629206107,
+   "rel11": 0.8121868204594875,
+   "ind": {
+    "mpi": [
+     21.29,
+     11.89
+    ],
+    "imr": [
+     27.5,
+     22.0
+    ],
+    "stunt": [
+     32.5,
+     33.8
+    ],
+    "anaemia": [
+     62.5,
+     71.4
+    ],
+    "school": [
+     26.5,
+     32.9
+    ],
+    "paidwork": [
+     22.8,
+     20.2
+    ],
+    "childmar": [
+     41.6,
+     41.6
+    ],
+    "sanit": [
+     52.8,
+     68.0
+    ],
+    "cook": [
+     27.8,
+     40.2
+    ],
+    "insure": [
+     33.4,
+     29.3
+    ]
+   },
+   "usd_equiv": 2133,
+   "pop_twin": {
+    "code": "vnm",
+    "name": "Vietnam",
+    "pop": 100987686.0
+   },
+   "inc_twin": {
+    "code": "ken",
+    "name": "Kenya",
+    "gdp": 2132
+   },
+   "slug": "west-bengal",
+   "type": "State",
+   "rank": {
+    "mpi": 18,
+    "imr": 8,
+    "stunt": 20,
+    "anaemia": 30,
+    "school": 26,
+    "paidwork": 23,
+    "childmar": 30,
+    "sanit": 25,
+    "cook": 24,
+    "insure": 19
+   },
+   "rank4": {
+    "mpi": 19,
+    "imr": 9,
+    "stunt": 16,
+    "anaemia": 28,
+    "school": 25,
+    "paidwork": 15,
+    "childmar": 29,
+    "sanit": 18,
+    "cook": 24,
+    "insure": 11
+   },
+   "score": 27,
+   "score4": 37,
+   "scoreRank": 25,
+   "scoreRank4": 23,
+   "incRank": 21,
+   "incRank11": 22,
+   "popRank": 4
+  },
+  {
+   "name": "Delhi",
+   "pop": 21508136.55835336,
+   "inc": 459408,
+   "inc11": 185001,
+   "rel": 2.432119941553904,
+   "rel11": 2.9151460716649336,
+   "ind": {
+    "mpi": [
+     4.44,
+     3.43
+    ],
+    "imr": [
+     31.2,
+     24.5
+    ],
+    "stunt": [
+     31.9,
+     30.9
+    ],
+    "anaemia": [
+     54.3,
+     49.9
+    ],
+    "school": [
+     54.2,
+     59.7
+    ],
+    "paidwork": [
+     21.1,
+     24.9
+    ],
+    "childmar": [
+     14.3,
+     9.9
+    ],
+    "sanit": [
+     75.1,
+     81.1
+    ],
+    "cook": [
+     97.9,
+     98.9
+    ],
+    "insure": [
+     15.7,
+     25.0
+    ]
+   },
+   "usd_equiv": 6554,
+   "pop_twin": {
+    "code": "mwi",
+    "name": "Malawi",
+    "pop": 21655286.0
+   },
+   "inc_twin": {
+    "code": "lby",
+    "name": "Libya",
+    "gdp": 6569
+   },
+   "slug": "delhi",
+   "type": "UT",
+   "rank": {
+    "mpi": 5,
+    "imr": 11,
+    "stunt": 13,
+    "anaemia": 10,
+    "school": 4,
+    "paidwork": 16,
+    "childmar": 9,
+    "sanit": 11,
+    "cook": 1,
+    "insure": 24
+   },
+   "rank4": {
+    "mpi": 4,
+    "imr": 15,
+    "stunt": 15,
+    "anaemia": 20,
+    "school": 5,
+    "paidwork": 18,
+    "childmar": 10,
+    "sanit": 8,
+    "cook": 1,
+    "insure": 21
+   },
+   "score": 68,
+   "score4": 63,
+   "scoreRank": 6,
+   "scoreRank4": 9,
+   "incRank": 3,
+   "incRank11": 2,
+   "popRank": 19
+  },
+  {
+   "name": "Jammu & Kashmir",
+   "pop": 13619745.496139549,
+   "inc": 139880,
+   "inc11": 51775,
+   "rel": 0.7405289795226903,
+   "rel11": 0.8158425514481107,
+   "ind": {
+    "mpi": [
+     12.56,
+     4.8
+    ],
+    "imr": [
+     32.4,
+     16.3
+    ],
+    "stunt": [
+     27.4,
+     26.9
+    ],
+    "anaemia": [
+     48.9,
+     65.9
+    ],
+    "school": [
+     37.1,
+     51.3
+    ],
+    "paidwork": [
+     12.3,
+     18.4
+    ],
+    "childmar": [
+     8.7,
+     4.5
+    ],
+    "sanit": [
+     53.8,
+     75.7
+    ],
+    "cook": [
+     57.5,
+     69.2
+    ],
+    "insure": [
+     4.3,
+     12.7
+    ]
+   },
+   "usd_equiv": 1996,
+   "pop_twin": {
+    "code": "bdi",
+    "name": "Burundi",
+    "pop": 14047786.0
+   },
+   "inc_twin": {
+    "code": "mrt",
+    "name": "Mauritania",
+    "gdp": 2110
+   },
+   "slug": "jammu-and-kashmir",
+   "type": "UT",
+   "rank": {
+    "mpi": 7,
+    "imr": 5,
+    "stunt": 7,
+    "anaemia": 28,
+    "school": 7,
+    "paidwork": 26,
+    "childmar": 1,
+    "sanit": 16,
+    "cook": 13,
+    "insure": 30
+   },
+   "rank4": {
+    "mpi": 11,
+    "imr": 16,
+    "stunt": 7,
+    "anaemia": 14,
+    "school": 15,
+    "paidwork": 30,
+    "childmar": 4,
+    "sanit": 17,
+    "cook": 10,
+    "insure": 29
+   },
+   "score": 55,
+   "score4": 51,
+   "scoreRank": 16,
+   "scoreRank4": 17,
+   "incRank": 23,
+   "incRank11": 21,
+   "popRank": 20
+  }
+ ],
+ "india": {
+  "ind": {
+   "mpi": [
+    24.85,
+    14.96
+   ],
+   "imr": [
+    40.7,
+    35.2
+   ],
+   "stunt": [
+    38.4,
+    35.5
+   ],
+   "anaemia": [
+    53.1,
+    57.0
+   ],
+   "school": [
+    35.7,
+    41.0
+   ],
+   "paidwork": [
+    24.6,
+    25.4
+   ],
+   "childmar": [
+    26.8,
+    23.3
+   ],
+   "sanit": [
+    48.5,
+    70.2
+   ],
+   "cook": [
+    43.8,
+    58.6
+   ],
+   "insure": [
+    28.7,
+    41.0
+   ]
+  },
+  "inc": 188892,
+  "inc11": 63462
+ },
+ "indicators": [
+  {
+   "k": "mpi",
+   "label": "Multidimensionally poor",
+   "unit": "% of people",
+   "dir": -1
+  },
+  {
+   "k": "imr",
+   "label": "Infant deaths",
+   "unit": "per 1,000 live births",
+   "dir": -1
+  },
+  {
+   "k": "stunt",
+   "label": "Children stunted",
+   "unit": "% of under-5s",
+   "dir": -1
+  },
+  {
+   "k": "anaemia",
+   "label": "Women anaemic",
+   "unit": "% of women 15–49",
+   "dir": -1
+  },
+  {
+   "k": "school",
+   "label": "Women with 10+ years of school",
+   "unit": "% of women 15–49",
+   "dir": 1
+  },
+  {
+   "k": "paidwork",
+   "label": "Women in paid work",
+   "unit": "% of women 15–49 paid in cash, last 12 months",
+   "dir": 1
+  },
+  {
+   "k": "childmar",
+   "label": "Girls married before 18",
+   "unit": "% of women 20–24",
+   "dir": -1
+  },
+  {
+   "k": "sanit",
+   "label": "Improved sanitation",
+   "unit": "% of population",
+   "dir": 1
+  },
+  {
+   "k": "cook",
+   "label": "Clean cooking fuel",
+   "unit": "% of households",
+   "dir": 1
+  },
+  {
+   "k": "insure",
+   "label": "Health insurance",
+   "unit": "% of households covered",
+   "dir": 1
+  }
+ ],
+ "india_gdp_usd": 2695,
+ "india_gdp_year": 2024,
+ "best": {
+  "mpi": {
+   "name": "Kerala",
+   "v": 0.55
+  },
+  "imr": {
+   "name": "Kerala",
+   "v": 4.4
+  },
+  "stunt": {
+   "name": "Sikkim",
+   "v": 22.3
+  },
+  "anaemia": {
+   "name": "Nagaland",
+   "v": 28.9
+  },
+  "school": {
+   "name": "Kerala",
+   "v": 77.0
+  },
+  "paidwork": {
+   "name": "Telangana",
+   "v": 45.1
+  },
+  "childmar": {
+   "name": "Jammu & Kashmir",
+   "v": 4.5
+  },
+  "sanit": {
+   "name": "Kerala",
+   "v": 98.7
+  },
+  "cook": {
+   "name": "Delhi",
+   "v": 98.9
+  },
+  "insure": {
+   "name": "Rajasthan",
+   "v": 87.8
+  }
+ },
+ "n": 30
+}

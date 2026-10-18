@@ -87,6 +87,29 @@ export default function FoundationHomePage() {
             <span><i className="up">▲ 5 better</i><i>≈ 1 flat</i><i className="dn">▼ 3 worse</i><i>since 2004</i></span>
           </div>
         </Link>
+        <Link href="/states" className="pub-card pub-card-monitor pub-card-states">
+          <div className="pub-card-left">
+            <div className="pub-card-type">State profiles · New</div>
+            <div className="pub-card-title">
+              One Country,<br />
+              <span>Many Economies</span>
+            </div>
+            <div className="pub-card-sub">28 states, Delhi and Jammu &amp; Kashmir</div>
+            <p className="pub-card-desc">
+              Bihar has as many people as Ethiopia and an income like Liberia’s; Goa earns like Belarus.
+              Thirty profiles on whether growth has reached people, state by state.
+            </p>
+            <div className="pub-card-meta">
+              <span>30 profiles</span>
+              <span>10 basics each</span>
+            </div>
+            <span className="pub-card-cta">Explore the profiles →</span>
+          </div>
+          <div className="pub-card-right mon-cardart" aria-hidden="true">
+            <b>30</b>
+            <span><i>economies inside one country</i></span>
+          </div>
+        </Link>
         <p className="ppf-more-note">
           More reports and publications will be added here as they are released.
         </p>
