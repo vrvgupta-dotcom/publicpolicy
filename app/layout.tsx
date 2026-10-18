@@ -4,7 +4,6 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://publicpolicy.vikasgupta.world"),
   title: {
     default: "Public Policy Foundation",
     template: "%s — Public Policy Foundation",
