@@ -15,7 +15,6 @@ const BOOK_NAV = [
 const FOUNDATION_NAV = [
   { href: "/book", label: "Publications" },
   { href: "/monitor", label: "2036 Monitor" },
-  { href: "/states", label: "States" },
 ];
 
 function isBookPath(pathname: string): boolean {
