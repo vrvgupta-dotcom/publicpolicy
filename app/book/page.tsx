@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getAllChapters, getChapterDetail } from "@/lib/data";
-import { PARTS, partDisplayOrder, chapterSlug, chapterDataKey } from "@/lib/types";
+import { getAllChapters } from "@/lib/data";
+import { PARTS, partDisplayOrder, chapterSlug } from "@/lib/types";
 import { BASE_PATH } from "@/lib/basePath";
 
 export const metadata: Metadata = {
@@ -19,11 +19,10 @@ export default function BookHomePage() {
   const chapters = getAllChapters();
   const displayOrder = partDisplayOrder();
 
-  const reelItems = chapters.map((ch) => {
-    const detail = getChapterDetail(chapterDataKey(ch.n));
-    const thumb = detail?.secs?.[0]?.th ?? ch.figs?.[0] ?? "";
-    return { thumb, slug: chapterSlug(ch) };
-  });
+  const reelItems = chapters.map((ch) => ({
+    slug: chapterSlug(ch),
+    n: ch.n,
+  }));
 
   return (
     <>
@@ -62,7 +61,7 @@ export default function BookHomePage() {
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`${BASE_PATH}/assets/thumbs/ch11--fig-two-rankings-two-different-countries.webp`}
+              src={`${BASE_PATH}/assets/sharp/hero.png`}
               alt="Two rankings, two different countries"
               className="hero-card-img"
             />
@@ -76,11 +75,11 @@ export default function BookHomePage() {
       {/* Chart reel — 43 cards, one per chapter */}
       <div className="reel-wrap">
         <div className="reel-track">
-          {[...reelItems, ...reelItems].map(({ thumb, slug }, i) => (
+          {[...reelItems, ...reelItems].map(({ slug, n }, i) => (
             <Link key={i} href={`/chapters/${slug}`} className="reel-card">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={`${BASE_PATH}/assets/thumbs/${thumb}`}
+                src={`${BASE_PATH}/assets/sharp/${String(n).padStart(2, "0")}.png`}
                 alt=""
                 loading="lazy"
               />

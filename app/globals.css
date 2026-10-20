@@ -98,13 +98,13 @@
   --india-ink: #b8570a;
   --india-soft: #fde3c8;
   --indigo: #3346b8;
-  --teal: #0b7a6a;
-  --rose: #b8316a;
+  --teal: #0f9e8a;
+  --rose: #d8467a;
   --violet: #7a52c9;
-  --leaf: #58ad3a;
+  --leaf: #4a9b2f;
   --gold: #d99a00;
   --sky: #2a8ad6;
-  --red: #c22b2b;
+  --red: #d93b3b;
 
   --glass: rgba(245, 246, 251, 0.92);
   --shadow-sm: 0 1px 2px rgba(21, 23, 58, 0.05), 0 8px 24px rgba(21, 23, 58, 0.06);
@@ -462,7 +462,7 @@ a:hover { color: var(--india-ink); }
 }
 
 /* ---- part colour tokens ---- */
-.part-1 { --pc: var(--teal); --pi: #ffffff; }
+.part-1 { --pc: var(--teal); --pi: #15173a; }
 .part-2 { --pc: var(--red); --pi: #ffffff; }
 .part-3 { --pc: var(--rose); --pi: #ffffff; }
 .part-4 { --pc: var(--sky); --pi: #15173a; }
@@ -696,8 +696,8 @@ a:hover { color: var(--india-ink); }
   display: flex;
   flex-direction: column;
 }
-.stat-card.teal { background: #0b7a6a; color: #ffffff; }
-.stat-card.red { background: #c22b2b; color: #ffffff; }
+.stat-card.teal { background: #0f9e8a; color: #ffffff; }
+.stat-card.red { background: #d93b3b; color: #ffffff; }
 .stat-card.violet { background: #7a52c9; color: #ffffff; }
 .stat-card.orange { background: var(--india); color: #15173a; }
 .stat-num {

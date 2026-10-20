@@ -7,11 +7,11 @@ import { PARTS, partDisplayOrder, chapterSlug } from "@/lib/types";
 import { SPECIAL_PAGES } from "@/lib/types";
 
 const NUMC: Record<number, string> = {
-  1: "#0b7a6a",
-  2: "#c22b2b",
-  3: "#b8316a",
+  1: "#0f9e8a",
+  2: "#d93b3b",
+  3: "#d8467a",
   4: "#1d6fb5",
-  5: "#3a7a22",
+  5: "#4a9b2f",
   6: "#a87500",
   7: "#7a52c9",
   8: "#b8570a",
